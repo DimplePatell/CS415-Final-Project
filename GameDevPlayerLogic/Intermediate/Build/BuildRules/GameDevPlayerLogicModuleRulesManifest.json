@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"D:\\Users\\mybot\\OneDrive\\Documents\\Unreal Projects\\GameDevPlayerLogic\\Intermediate\\Source\\GameDevPlayerLogic.Build.cs",
+		"D:\\Users\\mybot\\OneDrive\\Documents\\Unreal Projects\\GameDevPlayerLogic\\Intermediate\\Source\\GameDevPlayerLogic.Target.cs",
+		"D:\\Users\\mybot\\OneDrive\\Documents\\Unreal Projects\\GameDevPlayerLogic\\Intermediate\\Source\\GameDevPlayerLogicClient.Target.cs",
+		"D:\\Users\\mybot\\OneDrive\\Documents\\Unreal Projects\\GameDevPlayerLogic\\Intermediate\\Source\\GameDevPlayerLogicEditor.Target.cs",
+		"D:\\Users\\mybot\\OneDrive\\Documents\\Unreal Projects\\GameDevPlayerLogic\\Intermediate\\Source\\GameDevPlayerLogicServer.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
