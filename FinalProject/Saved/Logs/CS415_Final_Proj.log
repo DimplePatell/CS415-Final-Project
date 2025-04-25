@@ -2102,3 +2102,173 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.25-03.56.21:071][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
 [2025.04.25-03.56.21:079][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
 [2025.04.25-03.56.21:135][459]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.04.25-03.58.02:745][404]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.25-03.58.02:754][404]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.25-03.58.02:754][404]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.25-03.58.02:757][404]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.139 ms (total: 17.838 ms)
+[2025.04.25-03.58.02:757][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.25-03.58.02:757][404]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.25-03.58.02:765][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007440s)
+[2025.04.25-03.58.02:765][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007483s)
+[2025.04.25-03.58.02:788][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.04.25-03.58.02:789][404]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.04.25-03.58.02:791][404]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.25-03.58.02:791][404]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.25-03.58.02:791][404]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.25-03.58.02:791][404]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.25-03.58.02:793][404]LogWorldPartition: Display: WorldPartition initialize took 2.223 ms (total: 397.217 ms)
+[2025.04.25-03.58.02:793][404]LogPlayLevel: PIE: World Init took: (0.004013s)
+[2025.04.25-03.58.02:794][404]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.04.25-03.58.02:794][404]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.25-03.58.02:794][404]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.25-03.58.02:794][404]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.25-03.58.02:794][404]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.25-03.58.02:794][404]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.25-03.58.02:794][404]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.25-03.58.02:794][404]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.25-03.58.02:794][404]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.25-03.58.02:794][404]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.25-03.58.02:794][404]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.25-03.58.02:794][404]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.25-03.58.02:797][404]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.25-03.58.02:829][404]LogAudioMixer: Display: Using Audio Hardware Device 6 - VG248 (AMD High Definition Audio Device)
+[2025.04.25-03.58.02:829][404]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.25-03.58.02:829][404]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.25-03.58.02:829][404]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.25-03.58.02:830][404]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.04.25-03.58.02:830][404]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.04.25-03.58.02:833][404]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.04.25-03.58.02:833][404]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.04.25-03.58.02:833][404]LogInit: FAudioDevice initialized with ID 7.
+[2025.04.25-03.58.02:833][404]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2025.04.25-03.58.02:833][404]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.04.25-03.58.02:836][404]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.25-03.58.02:839][404]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.24-22.58.02
+[2025.04.25-03.58.02:840][404]LogWorld: Bringing up level for play took: 0.004310
+[2025.04.25-03.58.02:843][404]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.04.25-03.58.02:849][404]PIE: Server logged in
+[2025.04.25-03.58.02:850][404]PIE: Play in editor total start time 0.095 seconds.
+[2025.04.25-03.58.08:278][ 24]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 10.0
+[2025.04.25-03.58.09:387][156]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 10.0
+[2025.04.25-03.58.09:530][173]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 10.0
+[2025.04.25-03.58.10:554][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.25-03.58.10:554][291]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.25-03.58.10:554][291]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-03.58.10:555][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-03.58.10:555][291]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.04.25-03.58.10:560][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.25-03.58.10:566][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-03.58.10:587][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.25-03.58.10:588][291]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.04.25-03.58.10:588][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.04.25-03.58.10:590][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.04.25-03.58.10:597][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.04.25-03.58.10:654][292]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.04.25-03.58.19:263][ 23]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_4
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0040
+[2025.04.25-03.58.19:263][ 23]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_4
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:00E5
+[2025.04.25-03.58.19:263][ 23]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_4
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0113
+[2025.04.25-03.58.23:203][367]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_5
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0040
+[2025.04.25-03.58.23:203][367]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_5
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:00E5
+[2025.04.25-03.58.23:203][367]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_5
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0113
+[2025.04.25-03.58.23:221][368]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_6
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0040
+[2025.04.25-03.58.23:221][368]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_6
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:00E5
+[2025.04.25-03.58.23:221][368]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_6
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0113
+[2025.04.25-03.58.32:053][969]LogStreaming: Display: FlushAsyncLoading(563): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-03.58.32:070][969]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_Projectile.BP_Projectile
+[2025.04.25-03.58.32:070][969]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.04.25-03.58.32:585][969]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.04.25-03.59.20:290][633]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 665.338928
+[2025.04.25-03.59.20:374][640]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.25-03.59.20:374][640]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 665.412231, Update Interval: 339.286469
+[2025.04.25-04.00.16:232][845]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.25-04.00.21:087][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.04.25-04.00.21:583][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.25-04.00.21:627][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.04.25-04.00.21:633][210]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.04.25-04.00.21:633][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.04.25-04.00.21:676][210]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.25-04.00.21:677][210]LogSavePackage: Moving 'C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Saved/BP_ThirdPersonCharacterB918529E4E7662FB934EEE9417764849.tmp' to 'C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.25-04.00.21:689][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.490 ms (total: 758.704 ms)
+[2025.04.25-04.00.21:742][210]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.25-04.00.21:742][210]LogContentValidation: Enabled validators:
+[2025.04.25-04.00.21:742][210]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.25-04.00.21:742][210]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.25-04.00.21:742][210]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.25-04.00.21:742][210]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.25-04.00.21:742][210]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.25-04.00.21:742][210]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.25-04.00.21:742][210]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.04.25-04.00.59:429][933]LogBlueprint: Error: [AssetLog] C:\Users\mybot\OneDrive\Documents\GitHub\CS415-Final-Project\FinalProject\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Begin Deferred Actor Spawn from Class' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2025.04.25-04.00.59:429][933]LogBlueprint: Error: [AssetLog] C:\Users\mybot\OneDrive\Documents\GitHub\CS415-Final-Project\FinalProject\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'Finish Spawning Actor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2025.04.25-04.00.59:502][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.04.25-04.01.06:607][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.04.25-04.01.12:529][855]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_7
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0040
+[2025.04.25-04.01.12:529][855]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_7
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:00E5
+[2025.04.25-04.01.12:529][855]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_7
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0113
+[2025.04.25-04.01.12:550][856]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_8
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0040
+[2025.04.25-04.01.12:550][856]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_8
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:00E5
+[2025.04.25-04.01.12:550][856]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_8
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0113
+[2025.04.25-04.01.12:571][857]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_9
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0040
+[2025.04.25-04.01.12:571][857]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_9
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:00E5
+[2025.04.25-04.01.12:571][857]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	ABP_Mushroom_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Mushroom_C_9
+	Function /Game/ThirdPerson/Blueprints/ABP_Mushroom.ABP_Mushroom_C:ExecuteUbergraph_ABP_Mushroom:0113
+[2025.04.25-04.01.40:963][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.04.25-04.01.40:969][239]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.030
+[2025.04.25-04.01.40:970][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.04.25-04.01.40:976][239]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.04.25-04.01.40:976][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.04.25-04.01.41:017][239]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1
+[2025.04.25-04.01.41:017][239]LogSavePackage: Moving 'C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Saved/BP_ThirdPersonCharacter_Auto121F7F260468FB6DBF9DB0E831845008B.tmp' to 'C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset'
+[2025.04.25-04.01.41:018][239]LogFileHelpers: Auto-saving content packages took 0.049
+[2025.04.25-04.02.30:679][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.04.25-04.02.31:664][600]LogSlate: Window 'Save Content' being destroyed
+[2025.04.25-04.02.31:676][600]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.25-04.02.31:737][600]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.04.25-04.02.31:737][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.04.25-04.02.31:780][600]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.25-04.02.31:780][600]LogSavePackage: Moving 'C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Saved/BP_ThirdPersonCharacter3D5976A242E44346F7C310AEE78B1805.tmp' to 'C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.25-04.02.31:796][600]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.160 ms (total: 878.864 ms)
+[2025.04.25-04.02.31:836][600]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.25-04.02.31:836][600]LogContentValidation: Enabled validators:
+[2025.04.25-04.02.31:836][600]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.25-04.02.31:836][600]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.25-04.02.31:836][600]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.25-04.02.31:836][600]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.25-04.02.31:836][600]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.25-04.02.31:836][600]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.25-04.02.31:836][600]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
