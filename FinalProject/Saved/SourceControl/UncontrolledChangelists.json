@@ -55,6 +55,7 @@
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Enemies/Pursuer/Blueprints/ABS_BROKEN.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/NP/QWRLY6VEWCABL6Q3BIC3OH.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/MonsterForSurvivalGame/Animation/PBR/Swarm08/Manta_AttackMontage.uasset",
+<<<<<<< Updated upstream
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/UI/WBP_Score.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Collectables/Collectable_Coin.uasset",
@@ -248,6 +249,12 @@
 				"/Users/rtin/Desktop/CS415-Final-Project/FinalProject/Content/LowerSector_Mod/Models/Workshop/SM_Workshop_Tool6.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/7B/PMIJJ6PPIVO2YTGRVXKG04.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/XD/BLW0COOC0NSJB5QWO3TOSO.uasset",
+=======
+				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_Projectile.uasset",
+				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/UI/WBP_EnemyHealth.uasset",
+				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/MonsterForSurvivalGame/Animation/PBR/Swarm08/Manta_DieMontage.uasset",
+>>>>>>> Stashed changes
 				"C:/Users/dimpl/Downloads/UIUC/Spring 2025/CS415-R/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/dimpl/Downloads/UIUC/Spring 2025/CS415-R/CS415-Final-Project/FinalProject/Content/ThirdPerson/Enemies/SpikeTrap/lambert1.uasset",
 				"C:/Users/dimpl/Downloads/UIUC/Spring 2025/CS415-R/CS415-Final-Project/FinalProject/Content/ThirdPerson/Enemies/SpikeTrap/SpikeTrap_HideAnimation.uasset",
