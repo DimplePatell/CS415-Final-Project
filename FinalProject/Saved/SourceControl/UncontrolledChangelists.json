@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"/Users/rtin/Desktop/CS415-Final-Project/FinalProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"D:/Users/mybot/OneDrive/Documents/Unreal Projects/GameDevPlayerLogic/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"D:/Users/mybot/OneDrive/Documents/Unreal Projects/GameDevPlayerLogic/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"D:/Users/mybot/OneDrive/Documents/Unreal Projects/GameDevPlayerLogic/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
