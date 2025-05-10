@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/av28_/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/UI/WB_Shop.uasset",
+				"C:/Users/av28_/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/UI/WBP_Score.uasset",
+				"C:/Users/av28_/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/UI/WB_Instructions.uasset",
+				"C:/Users/av28_/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/av28_/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/PowerUps/BP_HealthUp.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_Projectile.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/mybot/OneDrive/Documents/GitHub/CS415-Final-Project/FinalProject/Content/ThirdPerson/Enemies/Mortar/BP_Mortar.uasset",
